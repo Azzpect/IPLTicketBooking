@@ -34,5 +34,5 @@ app.post("/sendMessage", (req, res) => {
 })
 
 app.listen(port, () => {
-    console.log(`Server is listening on ${process.env.localhost1}:${port}`)
+    console.log(`Server is live`)
 })
