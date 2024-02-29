@@ -1,0 +1,109 @@
+{
+    "matches": [
+        {
+            "match": "csk vs. rcb",
+            "date": "22 Mar.",
+            "time": "8 pm"
+        },
+        {
+            "match": "pbks vs. dc",
+            "date": "23 Mar.",
+            "time": "3:30 pm"
+        },
+        {
+            "match": "kkr vs. srh",
+            "date": "23 Mar.",
+            "time": "7:30 pm"
+        },
+        {
+            "match": "rr vs. lsg",
+            "date": "24 Mar.",
+            "time": "3:30 pm"
+        },
+        {
+            "match": "gt vs. mi",
+            "date": "24 Mar.",
+            "time": "7:30 pm"
+        },
+        {
+            "match": "rcb vs. pbks",
+            "date": "25 Mar.",
+            "time": "7:30 pm"
+        },
+        {
+            "match": "csk vs. gt",
+            "date": "26 Mar.", 
+            "time": "7:30 pm"
+        },
+        {
+            "match": "srh vs. mi",
+            "date": "27 Mar.",
+            "time": "7:30 pm"
+        },
+        {
+            "match": "rr vs. dc",
+            "date": "28 Mar.",
+            "time": "7:30 pm"
+        },
+        {
+            "match": "rcb vs. kkr",
+            "date": "29 Mar.",
+            "time": "7:30 pm"
+        },
+        {
+            "match": "lsg vs. pbks",
+            "date": "30 Mar.",
+            "time": "7:30 pm"
+        },
+        {
+            "match": "gt vs. srh",
+            "date": "31 Mar.", 
+            "time": "3:30 pm"
+        },
+        {
+            "match": "dc vs. csk",
+            "date": "31 Mar.",
+            "time": "7:30 pm"
+        },
+        {
+            "match": "mi vs. rr",
+            "date": "1 Apr.",
+            "time": "7:30 pm"
+        },
+        {
+            "match": "rcb vs. lsg",
+            "date": "2 Apr.",
+            "time": "7:30 pm"
+        },
+        {
+            "match": "dc vs. kkr",
+            "date": "3 Apr.",
+            "time": "7:30 pm"
+        },
+        {
+            "match": "gt vs. pbks",
+            "date": "4 Apr.",
+            "time": "7:30 pm"
+        },
+        {
+            "match": "srh vs. csk",
+            "date": "5 Apr.",
+            "time": "7:30 pm"
+        },
+        {
+            "match": "rr vs. rcb",
+            "date": "6 Apr.",
+            "time": "7:30 pm"
+        },
+        {
+            "match": "mi vs. dc",
+            "date": "7 Apr.",
+            "time": "3:30 pm"
+        },
+        {
+            "match": "lsg vs. gt",
+            "date": "7 Apr.",
+            "time": "7:30 pm"
+        }
+    ]
+}

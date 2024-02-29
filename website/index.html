@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPL | Book a ticket now</title>
+    <link rel="shortcut icon" href="/public/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/public/css/main.css">
+    <link rel="stylesheet" media="screen and (min-width: 300px) and (max-width: 450px)" href="/public/css/small_mobile.css">
+    <link rel="stylesheet" media="screen and (min-width: 450px) and (max-width: 600px)" href="/public/css/medium_mobile.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="/public/images/logo.png" alt="" id="logo">
+            </div>
+        </nav>
+    </header>
+    <section id="container">
+    </section>
+</body>
+<script src="/public/script/datafetch.js"></script>
+<script>
+    let btn_arr = Array.from(document.getElementsByClassName("whatsapp"))
+    for(const btn of btn_arr) {
+        btn.addEventListener("click", e => {
+            openWhatsapp()
+        })
+    }
+    document.addEventListener("DOMContentLoaded", e => {
+        getSchedule()
+    })
+</script>
+</html>
