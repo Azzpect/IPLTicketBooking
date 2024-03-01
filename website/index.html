@@ -45,6 +45,7 @@
     })
     search_field.addEventListener("focusout", e => {
         search_field.style.right = "100%";
+        window.location.reload()
     })
     search_field.addEventListener("input", e => {
         getSearchContainers(search_field.value.toLowerCase())

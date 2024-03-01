@@ -1,8 +1,4 @@
 function getSearchContainers(search_item) {
-    if(search_item == "") {
-        window.location.reload()
-        return 
-    }
     let containers = Array.from(document.getElementsByClassName("ticket-container"))
     let main_container = document.getElementById("container")
     let matches = containers.map(container => {
