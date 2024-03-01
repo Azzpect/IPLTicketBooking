@@ -22,11 +22,13 @@ header {
     z-index: 5;
 }
 .navbar {
-    width: 50%;
+    width: 93%;
     height: 100%;
-    margin: 0 0 0 5%;
+    margin: auto;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
 }
 .navbar>.logo {
     width: 10vw;
@@ -37,6 +39,29 @@ header {
     width: 80%;
     height: 100%;
 }
+
+.search-container {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+#search-logo {
+    cursor: pointer;
+}
+#search-field {
+    padding-left: 8px;
+    border: none;
+    height: 4vh;
+    width: 13vw;
+    border-radius: 18px;
+    position: relative;
+    right: 100%;
+    transition: all 0.3s linear;
+}
+#search-field:focus {
+    outline: none;
+}
+
 
 /* main body style */
 #container {

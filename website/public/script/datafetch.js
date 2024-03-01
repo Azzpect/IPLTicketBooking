@@ -28,6 +28,7 @@ function getSchedule() {
             let team2 = match.match.slice( match.match.indexOf("vs.")+4)
             let container = document.createElement("div")
             container.classList.add("ticket-container")
+            container.setAttribute("id", `${team1} vs ${team2} ${team2} vs ${team1}`)
             let logo_container = document.createElement("div")
             logo_container.classList.add("logo-container")
             let team1_logo = document.createElement("img")
