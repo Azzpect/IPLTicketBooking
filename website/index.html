@@ -45,8 +45,10 @@
     })
     search_field.addEventListener("focusout", e => {
         search_field.style.right = "100%";
-        if(search_field.value == "")
+        if(search_field.value == "") {
             window.location.reload()
+            document.getElementById("container").scrollTop = 0
+        }
     })
     search_field.addEventListener("input", e => {
         getSearchContainers(search_field.value.toLowerCase())
